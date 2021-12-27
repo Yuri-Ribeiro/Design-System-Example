@@ -1,0 +1,25 @@
+global:
+  category: "web"
+  type: "color"
+props:
+  color-brand-darkest:
+    value: "#002429"
+  color-brand-dark:
+    value: "#003E47"
+  color-brand-pure:
+    value: "#00778A"
+  color-brand-light:
+    value: "#BCEFF8"
+  color-brand-lightest:
+    value: "#EBFCFF"
+
+  color-brand-900:
+    value: "#001A1E"
+  color-brand-700:
+    value: "#00434D"
+  color-brand-500:
+    value: "#00788B"
+  color-brand-200:
+    value: "#94D8E3"
+  color-brand-100:
+    value: "#E4F5F8"

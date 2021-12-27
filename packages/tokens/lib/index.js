@@ -1,0 +1,1 @@
+export { default as COLOR_TOKENS } from './color.common';

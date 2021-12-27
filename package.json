@@ -1,0 +1,9 @@
+{
+  "name": "ds-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": ["packages/*"]
+  }
+}
