@@ -1,7 +1,7 @@
 import React from 'react';
 import './button.css';
 
-import { COLOR_TOKENS } from "@ds-example/tokens";
+import { COLOR_TOKENS } from '@ds-example/tokens';
 
 interface ButtonProps {
   /**
@@ -32,15 +32,18 @@ interface ButtonProps {
 export const Button = ({
   primary = false,
   size = 'medium',
-  backgroundColor,
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+  const mode = primary
+    ? 'storybook-button--primary'
+    : 'storybook-button--secondary';
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      className={['storybook-button', `storybook-button--${size}`, mode].join(
+        ' '
+      )}
       style={{ backgroundColor: COLOR_TOKENS.colorBrandDarkest }}
       {...props}
     >
