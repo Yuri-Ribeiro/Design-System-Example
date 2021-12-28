@@ -2,6 +2,7 @@ import React from 'react';
 import './button.css';
 
 import { COLOR_TOKENS } from '@ds-example/tokens';
+import { capitalize } from '@ds-example/shared';
 
 interface ButtonProps {
   /**
@@ -47,7 +48,7 @@ export const Button = ({
       style={{ backgroundColor: COLOR_TOKENS.colorBrandDarkest }}
       {...props}
     >
-      {label}
+      {capitalize(label)}
     </button>
   );
 };
