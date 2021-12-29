@@ -1,7 +1,7 @@
-import React from 'react';
 import './button.css';
 
 import { COLOR_TOKENS } from '@ds-example/tokens';
+// @ts-ignore
 import { capitalize } from '@ds-example/shared';
 
 interface ButtonProps {

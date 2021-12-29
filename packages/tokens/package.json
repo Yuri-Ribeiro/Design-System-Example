@@ -11,6 +11,7 @@
     "theo": "^8.1.5"
   },
   "scripts": {
-    "build:commonjs": "gulp tokens:commonjs"
+    "build:commonjs": "gulp tokens:commonjs",
+    "build:lib": "build:commonjs"
   }
 }

@@ -6,11 +6,9 @@ module.exports = {
     jest: true,
   },
   extends: [
-    'plugin:react/recommended',
     'standard',
     'plugin:@typescript-eslint/recommended',
     'airbnb-base',
-    '@react-native-community',
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
@@ -19,7 +17,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
     'react/react-in-jsx-scope': 'off',
@@ -27,6 +25,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     '@typescript-eslint/ban-types': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
   },
   globals: { JSX: true },
   settings: {
